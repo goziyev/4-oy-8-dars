@@ -45,6 +45,14 @@ function oddNumber(arg) {
 }
 // console.log(oddNumber([1,2,3,4,5,6,7,8]));
 
+// 5-masala
+let arr = ["hello","hi","bye","Number","String"]
+ 
+let arr1 = arr.filter(value  => {
+    return value.length > 5;
+});
+
+console.log(arr1);
 // 6-masala
 
 function primeNumber(son) {
